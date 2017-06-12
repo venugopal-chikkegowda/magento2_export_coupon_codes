@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!--
+{{License}}
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Codilar_CouponCode::codilar" title="Codilar" module="Codilar_CouponCode" sortOrder="30" resource="Codilar_CouponCode::codilar"/>
+        <add id="Codilar_CouponCode::couponcode" title="Export Coupon Codes" module="Codilar_CouponCode" sortOrder="10" action="couponcode/coupon/index" parent="Codilar_CouponCode::codilar" resource="Codilar_CouponCode::couponcod" />
+    </menu>
+</config>
